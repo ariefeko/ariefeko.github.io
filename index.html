@@ -98,6 +98,7 @@
   /* ── Hero ── */
   .hero {
     min-height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 8rem 3rem 4rem;
@@ -125,7 +126,8 @@
   }
 
   .hero-inner {
-    max-width: 900px;
+    width: 100%;
+    max-width: 1100px;
     position: relative;
     z-index: 2;
   }
@@ -160,11 +162,11 @@
 
   .hero h1 {
     font-family: 'Syne', sans-serif;
-    font-size: clamp(2.8rem, 7vw, 5.5rem);
+    font-size: clamp(3rem, 8vw, 6rem);
     font-weight: 800;
-    line-height: 1.05;
+    line-height: 1.1;
     letter-spacing: -0.03em;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.75rem;
     animation: fadeUp 0.6s 0.1s ease both;
   }
 
@@ -566,10 +568,25 @@
     .nav-links { display: none; }
     section { padding: 4rem 1.5rem; }
     .hero { padding: 7rem 1.5rem 3rem; }
+    .hero h1 { font-size: clamp(2.4rem, 10vw, 3.5rem); line-height: 1.15; }
+    .hero-sub { font-size: 1rem; }
     .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+    .hero-actions { flex-direction: column; }
+    .hero-actions .btn { width: 100%; justify-content: center; }
     .exp-item { grid-template-columns: 1fr; gap: 0.5rem; }
     .clients-bar { padding: 1.5rem; flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .clients-list { flex-wrap: wrap; gap: 1.5rem; }
+    .projects-grid { grid-template-columns: 1fr; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .contact-links { flex-direction: column; align-items: center; }
+    .contact-links .btn { width: 100%; max-width: 300px; justify-content: center; }
     footer { flex-direction: column; gap: 0.5rem; text-align: center; }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 { font-size: 2.2rem; }
+    .stat-num { font-size: 1.6rem; }
+    .hero-stats { gap: 1rem; }
   }
 </style>
 </head>
