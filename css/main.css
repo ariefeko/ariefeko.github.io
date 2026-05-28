@@ -98,17 +98,17 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:ce
 .skill-card:hover .skill-tag{border-color:rgba(75,86,148,0.3);color:var(--accent)}
 
 /* EXPERIENCE */
-.exp-wrap{padding:8rem 0}
+.exp-wrap{padding:3rem 0}
 .exp-item{display:grid;grid-template-columns:240px 1fr;gap:4rem;padding:3.5rem 0;border-bottom:1px solid var(--border);position:relative}
 .exp-item:first-child{border-top:1px solid var(--border)}
 .exp-item::after{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--accent),var(--steel));transform:scaleY(0);transform-origin:top;transition:transform 0.5s;left:-4rem}
 .exp-item:hover::after{transform:scaleY(1)}
-.exp-period{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--steel);letter-spacing:0.08em;margin-bottom:0.5rem}
+.exp-period{font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:var(--steel);letter-spacing:0.08em;margin-bottom:0.5rem}
 .exp-badge{display:inline-block;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:#fff;background:var(--accent);padding:0.22rem 0.7rem;margin-top:0.5rem;border-radius:2px}
 .exp-role{font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:500;color:var(--navy);margin-bottom:0.35rem;line-height:1.18}
 .exp-company{font-size:1rem;color:var(--accent);letter-spacing:0.04em;margin-bottom:1.75rem;font-weight:500}
 .exp-bullets{list-style:none;display:flex;flex-direction:column;gap:0.85rem}
-.exp-bullets li{font-size:1rem;color:var(--steel);padding-left:1.5rem;position:relative;line-height:1.7;font-weight:300}
+.exp-bullets li{font-size:1.1rem;color:var(--steel);padding-left:1.5rem;position:relative;line-height:1.7;font-weight:300}
 .exp-bullets li::before{content:'—';position:absolute;left:0;color:var(--accent)}
 
 /* PROJECTS */
@@ -153,7 +153,7 @@ footer{border-top:1px solid var(--border);padding:2rem 4rem;display:flex;align-i
     .skills-grid,.projects-grid{grid-template-columns:1fr}
     .exp-item{grid-template-columns:1fr;gap:1rem;padding:2.5rem 0}
     .exp-item::after{display:none}
-    .exp-wrap,.skills-wrap,.projects-wrap{padding:5rem 0}
+    .exp-wrap,.skills-wrap,.projects-wrap{padding:3rem 0}
     .contact-wrap{padding:6rem 1.5rem}
     footer{padding:1.5rem;flex-direction:column;gap:0.75rem;text-align:center}
     body{cursor:auto}.cursor,.cursor-ring{display:none}
