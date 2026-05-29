@@ -39,7 +39,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:ce
 .nav-hire::after{display:none!important}
 
 /* HERO */
-.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr 0.9fr;align-items:center;padding:10rem 4rem 6rem;gap:5rem;position:relative;overflow:hidden}
+.hero{min-height:70vh;display:grid;grid-template-columns:1.1fr 0.9fr;align-items:center;padding:10rem 4rem 6rem;gap:5rem;position:relative;overflow:hidden}
 .hero-bg{position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 80% 40%,rgba(75,86,148,0.06) 0%,transparent 70%);pointer-events:none}
 .hero-number{font-family:'Cormorant Garamond',serif;font-size:0.85rem;color:var(--steel);letter-spacing:0.2em;text-transform:uppercase;margin-bottom:2rem;display:flex;align-items:center;gap:1rem;animation:fadeIn 0.8s ease both}
 .hero-number::before{content:'';width:48px;height:2px;background:var(--accent)}
