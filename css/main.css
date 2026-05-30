@@ -65,7 +65,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:ce
 .stat-val{font-family:'Cormorant Garamond',serif;font-size:3.8rem;font-weight:600;color:var(--navy);line-height:0.95}
 .stat-val span{color:var(--accent);font-size:1.8rem}
 .stat-desc{font-size:1rem;color:var(--steel);text-align:right;max-width:190px;line-height:1.55}
-.status-dot{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.84rem;color:var(--green);margin-top:1.75rem;padding:0.45rem 0.9rem;background:rgba(58,138,96,0.08);border:1px solid rgba(58,138,96,0.25);border-radius:2px}
+.status-dot{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.74rem;color:var(--green);margin-top:1.75rem;padding:0.45rem 0.9rem;background:rgba(58,138,96,0.08);border:1px solid rgba(58,138,96,0.25);border-radius:2px}
 .status-dot::before{content:'';width:7px;height:7px;background:var(--green);border-radius:50%;animation:blink 2s infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
 
